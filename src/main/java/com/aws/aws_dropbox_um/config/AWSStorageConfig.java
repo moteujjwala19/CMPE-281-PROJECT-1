@@ -38,8 +38,8 @@ public class AWSStorageConfig {
     private AmazonDynamoDB config() {
         return AmazonDynamoDBClientBuilder.standard()
                 .withEndpointConfiguration(
-                        new AwsClientBuilder.EndpointConfiguration( "dynamodb.us-west-1.amazonaws.com","us-west-1"))
+                        new AwsClientBuilder.EndpointConfiguration( ""))
                 .withCredentials(new AWSStaticCredentialsProvider(
-                        new BasicAWSCredentials("AKIA4NLBE7Z3OX44GZUO","58zad7gep75Aw3h5fYAslEWcncb/2Pr2jPbe1leh"))).build();
+                        new BasicAWSCredentials("",""))).build();
     }
 }
