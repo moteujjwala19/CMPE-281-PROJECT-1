@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    credentials:
+      access-key: 
+      secret-key: 
+    region:
+      static: us-west-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: dropbucket11
+
